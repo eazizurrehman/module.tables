@@ -5,8 +5,8 @@ import { AppButton } from "@/app/_components/button";
 import { AppFieldGroup } from "@/app/_components/form/field-group";
 import { AppInput } from "@/app/_components/form/input";
 import { AppSubmitButton } from "@/app/_components/form/submit-button";
-import { useColumnTable } from "@/app/_components/tables/horizontal/_column/_hook";
-import { presetFormSchema } from "@/app/_components/tables/horizontal/_column/_preset-schema";
+import { useColumnTable } from "@/app/_modules/tables/horizontal/_column/_hook";
+import { presetFormSchema } from "@/app/_modules/tables/horizontal/_column/_preset-schema";
 import {
   Dialog,
   DialogContent,

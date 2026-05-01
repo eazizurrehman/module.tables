@@ -18,9 +18,9 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import { AppHeader } from "@/app/_components/header";
-import { AppTableHeader } from "@/app/_components/tables/horizontal/_header";
-import { PAGE_SIZES } from "@/app/_components/tables/horizontal/_pagination/_hook";
-import type { TAppHorizontalTableProps } from "@/app/_components/tables/horizontal/_types";
+import { AppTableHeader } from "@/app/_modules/tables/horizontal/_header";
+import { PAGE_SIZES } from "@/app/_modules/tables/horizontal/_pagination/_hook";
+import type { TAppHorizontalTableProps } from "@/app/_modules/tables/horizontal/_types";
 import { buttonVariants } from "@/app/_shadcn/button";
 import { Input } from "@/app/_shadcn/input";
 import {

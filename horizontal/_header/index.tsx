@@ -5,15 +5,15 @@ import { FileArchive, FolderArchive } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { AppButton } from "@/app/_components/button";
-import { TableBulkArchive } from "@/app/_components/tables/horizontal/_bulk/_archive";
-import { TableBulkDelete } from "@/app/_components/tables/horizontal/_bulk/_delete";
-import { TableBulkUnarchive } from "@/app/_components/tables/horizontal/_bulk/_unarchive";
-import { TableExport } from "@/app/_components/tables/horizontal/_export";
-import { TableImport } from "@/app/_components/tables/horizontal/_import";
+import { TableBulkArchive } from "@/app/_modules/tables/horizontal/_bulk/_archive";
+import { TableBulkDelete } from "@/app/_modules/tables/horizontal/_bulk/_delete";
+import { TableBulkUnarchive } from "@/app/_modules/tables/horizontal/_bulk/_unarchive";
+import { TableExport } from "@/app/_modules/tables/horizontal/_export";
+import { TableImport } from "@/app/_modules/tables/horizontal/_import";
 import type {
   TAppHorizontalTableProps,
   TFormSchema,
-} from "@/app/_components/tables/horizontal/_types";
+} from "@/app/_modules/tables/horizontal/_types";
 import { Input } from "@/app/_shadcn/input";
 import { Skeleton } from "@/app/_shadcn/skeleton";
 import { cn } from "@/lib/utils";

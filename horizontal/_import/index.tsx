@@ -1,11 +1,11 @@
 import { Upload, X } from "lucide-react";
 import { useState } from "react";
 import { AppButton } from "@/app/_components/button";
-import TableImportForm from "@/app/_components/tables/horizontal/_import/_form";
+import TableImportForm from "@/app/_modules/tables/horizontal/_import/_form";
 import type {
   TFormSchema,
   TImportTemplate,
-} from "@/app/_components/tables/horizontal/_types";
+} from "@/app/_modules/tables/horizontal/_types";
 import {
   Popover,
   PopoverContent,

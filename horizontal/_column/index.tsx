@@ -2,9 +2,9 @@ import type { Table } from "@tanstack/react-table";
 import { Settings2, X } from "lucide-react";
 import { useState } from "react";
 import { AppButton } from "@/app/_components/button";
-import { useColumnTable } from "@/app/_components/tables/horizontal/_column/_hook";
-import { TableSavedPresets } from "@/app/_components/tables/horizontal/_column/_saved-presets";
-import { TableColumnsSelection } from "@/app/_components/tables/horizontal/_column/_selection";
+import { useColumnTable } from "@/app/_modules/tables/horizontal/_column/_hook";
+import { TableSavedPresets } from "@/app/_modules/tables/horizontal/_column/_saved-presets";
+import { TableColumnsSelection } from "@/app/_modules/tables/horizontal/_column/_selection";
 import { Badge } from "@/app/_shadcn/badge";
 import {
   Popover,

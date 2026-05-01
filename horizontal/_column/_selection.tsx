@@ -1,8 +1,8 @@
 import type { Table } from "@tanstack/react-table";
 import { X } from "lucide-react";
 import { AppButton } from "@/app/_components/button";
-import { useColumnTable } from "@/app/_components/tables/horizontal/_column/_hook";
-import PresetForm from "@/app/_components/tables/horizontal/_column/_preset-form";
+import { useColumnTable } from "@/app/_modules/tables/horizontal/_column/_hook";
+import PresetForm from "@/app/_modules/tables/horizontal/_column/_preset-form";
 import { Checkbox } from "@/app/_shadcn/checkbox";
 import { Label } from "@/app/_shadcn/label";
 

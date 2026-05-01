@@ -2,7 +2,7 @@ import type { Table } from "@tanstack/react-table";
 import { Download, X } from "lucide-react";
 import { useState } from "react";
 import { AppButton } from "@/app/_components/button";
-import TableExportForm from "@/app/_components/tables/horizontal/_export/_form";
+import TableExportForm from "@/app/_modules/tables/horizontal/_export/_form";
 import {
   Popover,
   PopoverContent,

@@ -3,7 +3,7 @@
 import { useDirection } from "@radix-ui/react-direction";
 import type { Table } from "@tanstack/react-table";
 import type { ComponentProps } from "react";
-import { TableSortingContent } from "@/app/_components/tables/horizontal/_sorting/_content";
+import { TableSortingContent } from "@/app/_modules/tables/horizontal/_sorting/_content";
 import type { PopoverContent } from "@/app/_shadcn/popover";
 import { Sortable, SortableOverlay } from "@/app/_shadcn/sortable";
 

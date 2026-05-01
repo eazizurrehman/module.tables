@@ -1,5 +1,5 @@
-import type { TAppHorizontalTableProps } from "@/app/_components/tables/horizontal/_types";
-import type { TAppVerticalTableProps } from "@/app/_components/tables/vertical/_types";
+import type { TAppHorizontalTableProps } from "@/app/_modules/tables/horizontal/_types";
+import type { TAppVerticalTableProps } from "@/app/_modules/tables/vertical/_types";
 
 export type TAppTableProps<TData extends { id: string }, TValue> =
   | (TAppHorizontalTableProps<TData, TValue> & {

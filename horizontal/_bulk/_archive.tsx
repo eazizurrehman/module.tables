@@ -3,8 +3,8 @@ import type { Table } from "@tanstack/react-table";
 import { Archive } from "lucide-react";
 import { useRef, useState } from "react";
 import { AppSwapButton } from "@/app/_components/swap-button";
-import type { TBulkAction } from "@/app/_components/tables/horizontal/_types";
-import { getSelectedRowIds } from "@/app/_components/tables/horizontal/_utils";
+import type { TBulkAction } from "@/app/_modules/tables/horizontal/_types";
+import { getSelectedRowIds } from "@/app/_modules/tables/horizontal/_utils";
 import { clientAsyncHandler } from "@/lib/async-handlers";
 
 export function TableBulkArchive<TData>({

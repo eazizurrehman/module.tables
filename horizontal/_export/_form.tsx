@@ -15,7 +15,7 @@ import {
   FormatOptions,
   SelectionOptions,
   type TFormatOptions,
-} from "@/app/_components/tables/horizontal/_export/_schema";
+} from "@/app/_modules/tables/horizontal/_export/_schema";
 import { Card, CardContent, CardFooter } from "@/app/_shadcn/card";
 import { Field } from "@/app/_shadcn/field";
 import { toOrdinal } from "@/lib";

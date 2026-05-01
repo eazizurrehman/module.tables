@@ -6,7 +6,7 @@ import {
   useReactTable,
 } from "@tanstack/react-table";
 import { AppHeader } from "@/app/_components/header";
-import type { TAppVerticalTableProps } from "@/app/_components/tables/vertical/_types";
+import type { TAppVerticalTableProps } from "@/app/_modules/tables/vertical/_types";
 import { Card, CardContent } from "@/app/_shadcn/card";
 import {
   Table,

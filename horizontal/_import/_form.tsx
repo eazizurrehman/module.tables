@@ -13,11 +13,11 @@ import { AppFieldError } from "@/app/_components/form/field-error";
 import { AppFieldGroup } from "@/app/_components/form/field-group";
 import { AppFileUpload } from "@/app/_components/form/file-upload";
 import { AppSubmitButton } from "@/app/_components/form/submit-button";
-import { importFormSchema } from "@/app/_components/tables/horizontal/_import/_schema";
+import { importFormSchema } from "@/app/_modules/tables/horizontal/_import/_schema";
 import type {
   TFormSchema,
   TImportTemplate,
-} from "@/app/_components/tables/horizontal/_types";
+} from "@/app/_modules/tables/horizontal/_types";
 import { Card, CardContent, CardFooter } from "@/app/_shadcn/card";
 import { Field } from "@/app/_shadcn/field";
 import {

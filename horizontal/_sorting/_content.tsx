@@ -4,7 +4,7 @@ import { ArrowDownUp, Plus, X } from "lucide-react";
 import type { Popover as PopoverPrimitive } from "radix-ui";
 import { useId, useState } from "react";
 import { AppButton } from "@/app/_components/button";
-import { TableSortingItem } from "@/app/_components/tables/horizontal/_sorting/_item";
+import { TableSortingItem } from "@/app/_modules/tables/horizontal/_sorting/_item";
 import { Badge } from "@/app/_shadcn/badge";
 import {
   Popover,

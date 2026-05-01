@@ -1,6 +1,6 @@
 import { AppHeaderSkeleton } from "@/app/_components/header";
-import { AppTableHeaderSkeleton } from "@/app/_components/tables/horizontal/_header";
-import { TablePaginationSkeleton } from "@/app/_components/tables/horizontal/_pagination/_skeleton";
+import { AppTableHeaderSkeleton } from "@/app/_modules/tables/horizontal/_header";
+import { TablePaginationSkeleton } from "@/app/_modules/tables/horizontal/_pagination/_skeleton";
 import { Skeleton } from "@/app/_shadcn/skeleton";
 import { constructArrayFromLength } from "@/lib";
 import { cn } from "@/lib/utils";

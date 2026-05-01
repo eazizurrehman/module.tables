@@ -1,7 +1,7 @@
 import { Check, Pencil, Trash2 } from "lucide-react";
 import { AppButton } from "@/app/_components/button";
 import { ConfirmDeletion } from "@/app/_components/confirm-deletion";
-import { useColumnTable } from "@/app/_components/tables/horizontal/_column/_hook";
+import { useColumnTable } from "@/app/_modules/tables/horizontal/_column/_hook";
 import { PopoverHeader, PopoverTitle } from "@/app/_shadcn/popover";
 import { Separator } from "@/app/_shadcn/separator";
 

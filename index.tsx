@@ -1,10 +1,10 @@
 "use client";
 
-import type { TAppTableProps } from "@/app/_components/tables/_types";
-import AppHorizontalTable from "@/app/_components/tables/horizontal";
-import type { TAppHorizontalTableProps } from "@/app/_components/tables/horizontal/_types";
-import AppVerticalTable from "@/app/_components/tables/vertical";
-import type { TAppVerticalTableProps } from "@/app/_components/tables/vertical/_types";
+import type { TAppTableProps } from "@/app/_modules/tables/_types";
+import AppHorizontalTable from "@/app/_modules/tables/horizontal";
+import type { TAppHorizontalTableProps } from "@/app/_modules/tables/horizontal/_types";
+import AppVerticalTable from "@/app/_modules/tables/vertical";
+import type { TAppVerticalTableProps } from "@/app/_modules/tables/vertical/_types";
 
 export default function AppTable<TData extends { id: string }, TValue>({
   type = "horizontal",
