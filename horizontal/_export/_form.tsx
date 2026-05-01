@@ -6,10 +6,10 @@ import { Check } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { toast } from "sonner";
 import { utils as xlsxUtils, writeFile as xlsxWriteFile } from "xlsx";
-import { AppCombobox } from "@/app/_components/form/combobox";
-import { AppFieldGroup } from "@/app/_components/form/field-group";
-import { AppSlider } from "@/app/_components/form/slider";
-import { AppSubmitButton } from "@/app/_components/form/submit-button";
+import { AppCombobox } from "@/app/_modules/form/combobox";
+import { AppFieldGroup } from "@/app/_modules/form/field-group";
+import { AppSlider } from "@/app/_modules/form/slider";
+import { AppSubmitButton } from "@/app/_modules/form/submit-button";
 import {
   exportFormSchema,
   FormatOptions,

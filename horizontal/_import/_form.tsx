@@ -9,10 +9,10 @@ import { toast } from "sonner";
 import * as XLSX from "xlsx";
 import z from "zod";
 import { AppButton } from "@/app/_components/button";
-import { AppFieldError } from "@/app/_components/form/field-error";
-import { AppFieldGroup } from "@/app/_components/form/field-group";
-import { AppFileUpload } from "@/app/_components/form/file-upload";
-import { AppSubmitButton } from "@/app/_components/form/submit-button";
+import { AppFieldError } from "@/app/_modules/form/field-error";
+import { AppFieldGroup } from "@/app/_modules/form/field-group";
+import { AppFileUpload } from "@/app/_modules/form/file-upload";
+import { AppSubmitButton } from "@/app/_modules/form/submit-button";
 import { importFormSchema } from "@/app/_modules/tables/horizontal/_import/_schema";
 import type {
   TFormSchema,
